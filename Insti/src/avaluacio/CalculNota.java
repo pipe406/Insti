@@ -15,6 +15,8 @@ public class CalculNota {
         int lanotaint = 0;
         DecimalFormat df = new DecimalFormat("##");
 
+        
+        
         if (modul == "M05") {
             for (int i = 0; i < notes.length; i++) {
                 if (notes[i] < 3) {
